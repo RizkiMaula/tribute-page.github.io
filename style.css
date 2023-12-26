@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* nav */
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: blue;
+  z-index: 1;
+}
+
+nav .pic {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+nav ul li a:hover {
+  color: #99b1df;
+}
+
+/* home */
+
+.home {
+  position: relative;
+  background-image: url(img/hero-section2.jpg);
+  background-repeat: no-repeat;
+  height: 20%;
+  font-size: 2rem;
+  padding: 30% 30%;
+}
+
+.home a {
+  color: black;
+}
+
+/* timeline */
+
+.container-year img {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.timeline {
+  background-color: aqua;
+  border: 2px solid black;
+  position: relative;
+  top: -340px;
+  z-index: -1;
+}
+
+.timeline h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.container-year {
+  display: flex;
+  justify-content: flex-start;
+}
