@@ -83,6 +83,10 @@ nav ul li a:hover {
   border-radius: 50%;
 }
 
+.items-year h4 {
+  padding: 20px 0;
+}
+
 .item-img {
   padding: 10px 20px;
   width: 20%;
@@ -93,4 +97,11 @@ nav ul li a:hover {
   padding: 10px 20px;
   width: 80%;
   height: 100%;
+}
+
+.odd {
+  text-align: left;
+}
+.even {
+  text-align: right;
 }
