@@ -91,6 +91,7 @@ nav ul li a:hover {
   padding: 10px 20px;
   width: 20%;
   height: 30%;
+  border: 2px solid black;
 }
 
 .item-text {
