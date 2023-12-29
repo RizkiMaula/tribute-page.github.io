@@ -60,7 +60,6 @@ nav ul li a:hover {
 
 .timeline {
   background-color: aqua;
-  border: 2px solid black;
   position: relative;
   top: -340px;
   z-index: -1;
@@ -91,7 +90,6 @@ nav ul li a:hover {
   padding: 10px 20px;
   width: 20%;
   height: 30%;
-  border: 2px solid black;
 }
 
 .item-text {
@@ -105,4 +103,11 @@ nav ul li a:hover {
 }
 .even {
   text-align: right;
+}
+
+/* Gallery */
+
+.gallery img {
+  width: 30%;
+  height: 30%;
 }
