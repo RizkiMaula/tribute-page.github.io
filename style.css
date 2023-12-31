@@ -62,7 +62,7 @@ nav ul li a:hover {
   background-color: aqua;
   border: 2px solid black;
   position: relative;
-  top: -340px;
+  top: -350px;
   z-index: -1;
 }
 
@@ -111,7 +111,7 @@ nav ul li a:hover {
 
 .gallery {
   border: 2px solid black;
-  margin-top: -340px;
+  margin-top: -351px;
   text-align: center;
 }
 
