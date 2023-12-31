@@ -10,8 +10,8 @@ nav {
   position: sticky;
   top: 0;
   display: flex;
-  justify-content: space-around;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 20px 50px;
   background-color: blue;
   z-index: 1;
 }
@@ -108,3 +108,19 @@ nav ul li a:hover {
 }
 
 /* gallery */
+
+.gallery {
+  border: 2px solid black;
+  margin-top: -340px;
+  text-align: center;
+}
+
+.gallery h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.gallery img {
+  height: 30%;
+  width: 30%;
+}
