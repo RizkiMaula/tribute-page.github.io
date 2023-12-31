@@ -61,7 +61,7 @@ nav ul li a:hover {
 .timeline {
   background-color: aqua;
   position: relative;
-  top: -350px;
+  top: -361px;
   z-index: -1;
 }
 
@@ -109,8 +109,7 @@ nav ul li a:hover {
 /* Gallery */
 
 .gallery {
-  border: 2px solid black;
-  margin-top: -351px;
+  margin-top: -361px;
   text-align: center;
 }
 
@@ -122,4 +121,5 @@ nav ul li a:hover {
 .gallery img {
   height: 30%;
   width: 30%;
+  border-radius: 20%;
 }
