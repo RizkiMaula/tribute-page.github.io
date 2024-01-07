@@ -29,6 +29,7 @@ nav ul {
 }
 
 nav ul li a {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -59,8 +60,8 @@ nav ul li a:hover {
 /* timeline */
 
 .timeline {
-  background-color: aqua;
   position: relative;
+  background-color: aqua;
   top: -361px;
   z-index: -1;
 }
@@ -111,7 +112,7 @@ nav ul li a:hover {
 /* grid */
 .container-grid {
   display: grid;
-  width: 97%;
+  width: 97.5%;
   height: auto;
   grid-template-rows: repeat(4, 25%);
   grid-template-columns: repeat(4, 25%);
@@ -174,6 +175,7 @@ nav ul li a:hover {
 .gallery {
   margin-top: -361px;
   text-align: center;
+  position: relative;
 }
 
 .gallery h2 {
@@ -234,4 +236,32 @@ footer {
 
 footer a {
   color: white;
+}
+
+/* responsive breakpoint */
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  .timeline {
+    top: 0px;
+    border: 2px solid black;
+  }
+
+  .gallery {
+    top: 358px;
+    border: 2px solid black;
+  }
+
+  .posts {
+    top: 1000px;
+    border: 2px solid black;
+  }
+
+  nav ul {
+    width: 50%;
+  }
+
+  .container-grid {
+    width: 95%;
+  }
 }
