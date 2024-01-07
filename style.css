@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 .timeline {
   background-color: aqua;
-  position: relative;
+  position: static;
   top: -361px;
   z-index: -1;
 }
