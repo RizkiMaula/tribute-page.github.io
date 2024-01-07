@@ -224,3 +224,14 @@ nav ul li a:hover {
   grid-column: -5 / -3;
   grid-row: 4 / 5;
 }
+
+footer {
+  background-color: blue;
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
