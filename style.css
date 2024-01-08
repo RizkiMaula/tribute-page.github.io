@@ -29,6 +29,7 @@ nav ul {
 }
 
 nav ul li a {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -47,9 +48,9 @@ nav ul li a:hover {
   position: relative;
   background-image: url(img/hero-section2.jpg);
   background-repeat: no-repeat;
-  height: 20%;
   font-size: 2rem;
-  padding: 30% 30%;
+  padding: 17% 30%;
+  border: 2px solid black;
 }
 
 .home a {
@@ -59,9 +60,9 @@ nav ul li a:hover {
 /* timeline */
 
 .timeline {
+  position: relative;
   background-color: aqua;
-  position: static;
-  top: -361px;
+  top: -20px;
   z-index: -1;
 }
 
@@ -108,15 +109,28 @@ nav ul li a:hover {
 
 /* Gallery */
 
+.gallery {
+  position: relative;
+  top: -21px;
+  text-align: center;
+  /* border: 2px solid black;  */
+}
+
+.gallery h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
 /* grid */
 .container-grid {
   display: grid;
-  width: 97%;
+  width: 96.5%;
   height: auto;
   grid-template-rows: repeat(4, 25%);
   grid-template-columns: repeat(4, 25%);
   /* border: 2px solid black; */
-  gap: 10px;
+  gap: 3px;
+  margin-left: 10px;
 }
 
 .items {
@@ -171,28 +185,22 @@ nav ul li a:hover {
 
 /* end of grid */
 
-.gallery {
-  margin-top: -361px;
-  text-align: center;
-}
-
-.gallery h2 {
-  text-align: center;
-  padding: 20px 0;
-}
-
 /* the end of gallery */
 
 /* posts */
 
 .posts {
-  margin-top: 30px;
+  /* top: -21px; */
+  position: relative;
+  /* border: 2px solid black; */
 }
 
 .posts h2 {
   text-align: center;
   padding: 20px 0;
 }
+
+/* grid */
 
 .container-posts {
   display: grid;
@@ -225,8 +233,13 @@ nav ul li a:hover {
   grid-row: 4 / 5;
 }
 
+/* the end of grid  */
+
+/* footer */
+
 footer {
   background-color: blue;
+  top: 10px;
   text-align: center;
   padding: 30px 0;
   color: white;
@@ -234,4 +247,36 @@ footer {
 
 footer a {
   color: white;
+}
+
+/* responsive breakpoint */
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  .timeline {
+    top: 0px;
+    border: 2px solid black;
+  }
+
+  .gallery {
+    top: -1px;
+    border: 2px solid black;
+  }
+
+  .posts {
+    /* margin-top: 356px; */
+    border: 2px solid black;
+  }
+
+  nav ul {
+    width: 50%;
+  }
+
+  .container-grid {
+    width: 97%;
+  }
+}
+
+/* mobile phone */
+@media screen and (max-width: 576px) {
 }
